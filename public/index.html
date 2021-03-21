@@ -14,7 +14,7 @@
         <div class="flex  bg-gray-200"> 
             <h1 class="text-4xl font-semibold items-center bg-gray-200 mx-auto">Kwentuhan Application</h1>
         </div>
-        <div class="flex p-5">
+        <div class="flex flex-col md:flex-row p-5">
              <!-- left panel for the rooms -->
             <div class="p-2 bg-gray-300 rounded-md border border-gray-200 w-64 shadow-md">
                 <label for="" class="text-sm font-semibold text-center">Type your name and select a room</label>
@@ -31,11 +31,11 @@
             <!-- right panel -->
             <div class="flex-auto ml-5">
                 <div class="grid grid-col-1 gap-4" style="height: 100%;">
-                     <!-- people in rooms -->
+                     <!-- messages -->
                     <div class="h-96 rounded-lg bg-white border border-gray-200 bg-white shadow-lg">
                        
                     </div>
-                    <!-- messages in room -->
+                    <!-- send message-->
                     <div class="flex flex-row ">
                         <textarea 
                             rows="5"
@@ -43,7 +43,7 @@
                             type="text" 
                             class="message flex-auto rounded-md p-2 shadow-md" 
                             placeholder="type your message here..."> </textarea>
-                        <button class="w-52 bg-gray-400 px-4 py-3 border rounded-md ml-2 shadow-md">Send</button>
+                        <button class="w-24 md:w-36 bg-gray-400 px-4 py-3 border rounded-md ml-2 shadow-md">Send</button>
                     </div>
                 </div>               
             </div>
